@@ -32,7 +32,7 @@ def check_queue(ctx, id):
         player = voice.play(source)
 
 def run_discord_bot():
-    token = 'ODg3Njc2ODA2ODM5MjcxNDc0.GLjZjA.HjhqyXrWoOPljTqIs4frGteCkroXtdE3Y_njPY'
+    token = 'You_Tried'
     intents = discord.Intents.default()
     intents.message_content = True
     client = commands.Bot(command_prefix='seal', intents=intents)
